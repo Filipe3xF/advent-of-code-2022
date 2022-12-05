@@ -1,4 +1,4 @@
-import kotlin.utils.Day
+import utils.Day
 
 fun main() = Day(
     number = 1,

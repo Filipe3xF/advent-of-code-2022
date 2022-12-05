@@ -1,4 +1,4 @@
-package kotlin.utils
+package utils
 
 import arrow.core.Either
 import java.io.File

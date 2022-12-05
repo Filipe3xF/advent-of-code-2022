@@ -1,4 +1,4 @@
-package kotlin.utils
+package utils
 
 import arrow.core.Either
 import arrow.core.left
@@ -9,7 +9,7 @@ import io.ktor.client.engine.cio.*
 import io.ktor.client.request.*
 import io.ktor.http.*
 import kotlinx.coroutines.runBlocking
-import kotlin.config.Configuration
+import config.Configuration
 
 class HttpDayInputSupplier(
     private val configuration: Configuration = Configuration.readConfiguration()

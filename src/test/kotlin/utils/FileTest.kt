@@ -8,7 +8,6 @@ import io.kotest.matchers.shouldBe
 import io.kotest.matchers.types.shouldBeTypeOf
 import org.junit.jupiter.api.Test
 import java.io.FileNotFoundException
-import kotlin.utils.readFile
 
 class FileTest {
 

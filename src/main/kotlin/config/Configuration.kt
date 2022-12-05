@@ -1,4 +1,4 @@
-package kotlin.config
+package config
 
 import com.typesafe.config.ConfigFactory.load
 import com.typesafe.config.ConfigFactory.parseFile
@@ -21,7 +21,7 @@ class Configuration private constructor(
             }
         }
 
-        private const val PATH_TO_CONFIG = "src/kotlin.main/resources/configuration.conf"
+        private const val PATH_TO_CONFIG = "src/main/resources/configuration.conf"
         private const val HTTP_KEY = "http"
         private const val HOST_KEY = "host"
         private const val YEAR_KEY = "year"
