@@ -17,8 +17,10 @@ class FileTest {
 
         assertSoftly {
             val inputLines = input.shouldBeRight()
-            inputLines shouldHaveSize 2
-            inputLines.joinToString(" ") shouldBe "Hello, World!"
+            inputLines shouldBe """
+                Hello,
+                World!
+            """.trimIndent()
         }
     }
 

@@ -5,7 +5,7 @@ import java.io.FileNotFoundException
 
 class Day<T, R, V>(
     private val number: Int,
-    private val inputTransformation: (List<String>) -> T,
+    private val inputTransformation: (String) -> T,
     private val partOneSolution: (T) -> R,
     private val partTwoSolution: (T) -> V,
     dayInputSupplier: DayInputSupplier = HttpDayInputSupplier()

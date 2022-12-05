@@ -7,6 +7,6 @@ fun readFile(
     name: String,
     extension: String,
     parent: String
-): Either<Throwable, List<String>> = Either.catch {
-    File(parent, "$name.$extension").readLines()
+): Either<Throwable, String> = Either.catch {
+    File(parent, "$name.$extension").readText().trim()
 }
