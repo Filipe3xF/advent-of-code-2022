@@ -35,11 +35,11 @@ class Day01Test {
 
     @Test
     fun `should get the sum of the total calories of the top elf with most calories`() {
-        totalCaloriesOfEachElf.getSumOfTheTotalCaloriesOfTheTopNElvesWithMostCalories(1) shouldBe 24000
+        totalCaloriesOfEachElf.getSumOfTheTotalCaloriesOfTheTopNElves(1) shouldBe 24000
     }
 
     @Test
     fun `should get the sum of the total calories of the top 3 elves with most calories`() {
-        totalCaloriesOfEachElf.getSumOfTheTotalCaloriesOfTheTopNElvesWithMostCalories(3) shouldBe 45000
+        totalCaloriesOfEachElf.getSumOfTheTotalCaloriesOfTheTopNElves(3) shouldBe 45000
     }
 }
